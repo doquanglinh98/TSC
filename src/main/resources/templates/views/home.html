@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TSC | Home</title>
+<link rel="stylesheet" href="css/tsc.css">
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+	crossorigin="anonymous">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<!--header-->
+	<header class="p-3 text-bg-dark">
+		<div class="container">
+			<div
+				class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+				<a href="/"
+					class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+					style="padding-right: 5%"> <img src="imgs/tsc_logo.png"
+					alt="logo" width="80" height="50" style="border-radius: 3px;">
+				</a>
+
+				<ul
+					class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+					<li><a href="/" class="nav-link px-2 text-secondary">Home</a></li>
+					<li><a href="/features" class="nav-link px-2 text-white">Products</a></li>
+					<li><a href="#" class="nav-link px-2 text-white">Company</a></li>
+					<li><a href="#" class="nav-link px-2 text-white">About</a></li>
+				</ul>
+
+				<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+					<input type="search"
+						class="form-control form-control-dark text-bg-dark"
+						placeholder="Search..." aria-label="Search">
+				</form>
+
+				<div class="text-end">
+					<button type="button" class="btn btn-outline-light me-2">Login</button>
+					<button type="button" class="btn btn-warning">Sign-up</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--header-->
+
+	<!--body-->
+	<div id="carouselExampleInterval container" class="carousel slide"
+		data-bs-ride="carousel" style="width: 100%;">
+		<div class="carousel-inner" style="height: 800px">
+			<div class="carousel-item active h-100" data-bs-interval="2000">
+				<img src="imgs/pro-lights-and-sounds.jpg"
+					class="d-block w-100 h-100" alt="..." style="object-fit: cover;">
+			</div>
+			<div class="carousel-item h-100" data-bs-interval="2000">
+				<img src="imgs/si2.jpg" class="d-block w-100 h-100" alt="..."
+					style="object-fit: cover;">
+			</div>
+			<div class="carousel-item h-100" data-bs-interval="2000">
+				<img src="imgs/si3.jpg" class="d-block w-100 h-100" alt="..."
+					style="object-fit: cover;">
+			</div>
+		</div>
+		<button class="carousel-control-prev h-100" type="button"
+			data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+				class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next h-100" type="button"
+			data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span> <span
+				class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+	<div
+		class="fusion-fullwidth fullwidth-box fusion-builder-row-3 fusion-flex-container nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
+		style="--awb-background-position: left top; --awb-border-sizes-top: 0px; --awb-border-sizes-bottom: 0px; --awb-border-sizes-left: 0px; --awb-border-sizes-right: 0px; --awb-border-radius-top-left: 0px; --awb-border-radius-top-right: 0px; --awb-border-radius-bottom-right: 0px; --awb-border-radius-bottom-left: 0px; --awb-padding-top: 60px; --awb-padding-bottom: 70px; --awb-background-color: #e8e8e8; --awb-flex-wrap: wrap;">
+		<div
+			class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap"
+			style="text-align: center;">
+			<div
+				class="fusion-layout-column fusion_builder_column fusion-builder-column-5 fusion_builder_column_2_3 2_3 fusion-flex-column"
+				style="--awb-bg-size: cover; --awb-width-large: 66.666666666667%; --awb-margin-top-large: 0px; --awb-spacing-right-large: 2.88%; --awb-margin-bottom-large: 20px; --awb-spacing-left-large: 2.88%; --awb-width-medium: 66.666666666667%; --awb-order-medium: 0; --awb-spacing-right-medium: 2.88%; --awb-spacing-left-medium: 2.88%; --awb-width-small: 100%; --awb-order-small: 0; --awb-spacing-right-small: 1.92%; --awb-spacing-left-small: 1.92%;">
+				<div
+					class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+					<div class="fusion-text fusion-text-1"
+						style="--awb-text-transform: none;">
+						<h2>HK Audio is the German pro audio brand offering the
+							easiest way to the best sound.</h2>
+						<p>
+							From portable to professional live sound to install solutions for
+							over 30 years, we build<br> PA systems for those who are
+							fascinated by the energy of sound.<br> Giving them a stage.
+							Giving them a home.
+						</p>
+						<p>
+							Nothing’s more important to us at HK Audio than you, the user,
+							and your needs.<br> That’s why we’re constantly developing
+							new, forward-thinking audio technologies with the goal of pure,
+							unadulterated sound reproduction. Our vision is to provide you
+							with outstanding sound reinforcement systems that are
+							exceptionally easy to use and safe to rely on for great
+							performances day after day, night after night – no matter how
+							challenging your venue or show might be.<br> To that end, we
+							design and engineer our entire product range at our headquarters
+							in St. Wendel, Germany, and we build most of them there too. And
+							what do you get when you add more than 30 years of
+							industry-leading know-how and a 5-year warranty to all of that?
+							You get HK Audio – Sound Reinforcement Systems made in Germany.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- 			<div
+				class="fusion-layout-column fusion_builder_column fusion-builder-column-6 fusion_builder_column_1_3 1_3 fusion-flex-column"
+				style="--awb-bg-size: cover; --awb-width-large: 33.333333333333%; --awb-margin-top-large: 0px; --awb-spacing-right-large: 5.76%; --awb-margin-bottom-large: 20px; --awb-spacing-left-large: 5.76%; --awb-width-medium: 33.333333333333%; --awb-order-medium: 0; --awb-spacing-right-medium: 5.76%; --awb-spacing-left-medium: 5.76%; --awb-width-small: 100%; --awb-order-small: 0; --awb-spacing-right-small: 1.92%; --awb-spacing-left-small: 1.92%;">
+				<div
+					class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column"></div>
+			</div> -->
+		</div>
+	</div>
+	<!--body-->
+
+	<!-- Footer -->
+	<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+		<!-- Section: Social media -->
+		<section
+			class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+			<!-- Left -->
+			<div class="me-5 d-none d-lg-block"></div>
+			<!-- Left -->
+
+			<!-- Right -->
+			<div>
+				<a href="" class="me-4 text-reset"> <i class="fab fa-facebook-f"></i>
+				</a> <a href="" class="me-4 text-reset"> <i class="fab fa-twitter"></i>
+				</a> <a href="" class="me-4 text-reset"> <i class="fab fa-google"></i>
+				</a> <a href="" class="me-4 text-reset"> <i class="fab fa-instagram"></i>
+				</a> <a href="" class="me-4 text-reset"> <i class="fab fa-linkedin"></i>
+				</a> <a href="" class="me-4 text-reset"> <i class="fab fa-github"></i>
+				</a>
+			</div>
+			<!-- Right -->
+		</section>
+		<!-- Section: Social media -->
+
+		<!-- Section: Links  -->
+		<section class="">
+			<div class="container text-center text-md-start mt-5">
+				<!-- Grid row -->
+				<div class="row mt-3">
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+						<!-- Content -->
+						<h6 class="text-uppercase fw-bold mb-4">
+							<i class="fas fa-gem me-3"></i>Company name
+						</h6>
+						<p>Here you can use rows and columns to organize your footer
+							content. Lorem ipsum dolor sit amet, consectetur adipisicing
+							elit.</p>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">Products</h6>
+						<p>
+							<a href="#!" class="text-reset">Angular</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">React</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">Vue</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">Laravel</a>
+						</p>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+						<p>
+							<a href="#!" class="text-reset">Pricing</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">Settings</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">Orders</a>
+						</p>
+						<p>
+							<a href="#!" class="text-reset">Help</a>
+						</p>
+					</div>
+					<!-- Grid column -->
+
+					<!-- Grid column -->
+					<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+						<p>
+							<i class="fas fa-home me-3"></i> New York, NY 10012, US
+						</p>
+						<p>
+							<i class="fas fa-envelope me-3"></i> info@example.com
+						</p>
+						<p>
+							<i class="fas fa-phone me-3"></i> + 01 234 567 88
+						</p>
+						<p>
+							<i class="fas fa-print me-3"></i> + 01 234 567 89
+						</p>
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row -->
+			</div>
+		</section>
+		<!-- Section: Links  -->
+
+		<!-- Copyright -->
+		<div class="text-center p-4"
+			style="background-color: rgba(0, 0, 0, 0.05);">
+			© 2021 Copyright: <a class="text-reset fw-bold"
+				href="https://mdbootstrap.com/">MDBootstrap.com</a>
+		</div>
+		<!-- Copyright -->
+	</footer>
+	<!-- Footer -->
+
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

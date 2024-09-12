@@ -18,7 +18,7 @@ public class TscController {
 	@GetMapping("/")
 	public String index(Model model) {
 		model.addAttribute("name", "World");
-		return "views/index";
+		return "views/home";
 	}
 
 }
